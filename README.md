@@ -1,17 +1,37 @@
-## Foundry
+# 🚀 ERC20 Token — Cyfrin Updraft Project
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This repository contains an **ERC20 token smart contract** developed as part of the **Cyfrin Updraft course** (by Patrick Collins / Cyfrin).
 
-Foundry consists of:
+The goal of this project is to learn how to build, test, and deploy an ERC20 token using:
+- Solidity
+- OpenZeppelin
+- Foundry (Forge + Cast + Anvil)
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+---
 
-## Documentation
+## Features
 
-https://book.getfoundry.sh/
+✅ ERC20 compliant token  
+✅ Secure implementation using OpenZeppelin  
+✅ Owner-only mint functionality  
+✅ Anyone can transfer/approve tokens  
+✅ Full test suite using Foundry  
+✅ Deployment scripts for multiple networks  
+✅ Supports verification on Etherscan / Block explorers  
+
+---
+
+## 🛠 Tech Stack
+
+| Component          | Technology |
+|------------------|------------|
+| Smart Contracts  | Solidity (0.8.x) |
+| Build Framework  | Foundry (Forge | Cast | Anvil) |
+| Security         | OpenZeppelin Libraries |
+| Deployment       | Foundry Scripts |
+| Testing          | Foundry Test Framework |
+
+---
 
 ## Usage
 
@@ -27,40 +47,4 @@ $ forge build
 $ forge test
 ```
 
-### Format
 
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
