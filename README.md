@@ -1,6 +1,6 @@
 # 🚀 ERC20 Token — Cyfrin Updraft Project
 
-This repository contains an **ERC20 token smart contract** developed as part of the **Cyfrin Updraft course** (by Patrick Collins / Cyfrin).
+This repository contains an **ERC20 token smart contract**.
 
 The goal of this project is to learn how to build, test, and deploy an ERC20 token using:
 - Solidity
